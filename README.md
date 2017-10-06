@@ -194,12 +194,24 @@ const Someone = {
 il peut être possible de ne plus avoir besoin du `bind() aussi souvent que ça pouvait être le cas.
 
 
-###### Contributeurs :
+## Bibliographie
+
+* Book “You Don’t Know JS - Up & Going” from Kyle Simpson
+  https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md
+
+* Book “Eloquent JavaScript - Ch3: Fonctions” from Marijn Haverbeke
+  http://fr.eloquentjavascript.net/chapter3.html
+
+* ES5 et ES6 comparateur : http://es6-features.org/#ExpressionBodies
+
+* MDN web docs sur les Fonctions : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Fonctions
+
+## Contributeurs :
 
 Sara Attallah Gherardi
 
 Aurélie Baliry
 
-Anthony Dias
-
 Marie-Lise Ton
+
+Anthony Dias
