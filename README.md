@@ -177,3 +177,29 @@ var a3 = a.map( s => s.length );
 Les fonctions fléchées n’ont pas de `this`.
 
 À l'inverse des fonctions normales, les fonctions fléchées partagent le même this lexical que leur scope parent. Du coup, le `this` que vous pourrez utiliser dans votre corps de fonction fléchée est celui du code parent :
+
+```javascript
+const Someone = {
+  name: “Sara”,
+  friends: [],
+  printFriends() {
+    this._friends.forEach(f =>
+      console.log(this._name + " knows " + f)
+      // `this` ne réfère pas à la fonction fléchée du forEach !
+    )
+  }
+}
+```
+
+il peut être possible de ne plus avoir besoin du `bind() aussi souvent que ça pouvait être le cas.
+
+
+###### Contributeurs :
+
+Sara Attallah Gherardi
+
+Aurélie Baliry
+
+Anthony Dias
+
+Marie-Lise Ton
